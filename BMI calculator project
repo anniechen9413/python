@@ -1,0 +1,5 @@
+digi1=float(input("請輸入您的身高（公分）\n"))                       #ex,160.4  #178.6
+digi2=float(input("請輸入您的體重（公斤）\n"))                       #ex,46     #74.5
+
+
+print("您的BMI是："+str(round(digi2/((digi1/100)**2),1)))         #ex,17.9  #23.4
